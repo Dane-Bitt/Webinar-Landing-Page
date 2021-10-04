@@ -1,0 +1,249 @@
+/* -------------- First Outter Div Container -----------*/
+.container {    
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background: rgb(2, 0, 48); /* Old browsers */
+
+    }
+
+/* -------------- Main/Parent Div Container / Section outter Div */
+.mainBG {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#0e113c+0,0e116b+75 */
+    background: rgb(14, 17, 60); /* Old browsers */
+    background: -moz-linear-gradient(45deg,  rgba(14,17,60,1) 0%, rgba(14,17,107,1) 75%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg,  rgba(14,17,60,1) 0%,rgba(14,17,107,1) 75%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg,  rgba(14,17,60,1) 0%,rgba(14,17,107,1) 75%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0e113c', endColorstr='#0e116b',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    width: 100%;
+    max-width: 1600px;
+}
+
+/* ------------------------ Globe Space section of Page ---------------- */
+.center {
+    display: flex;
+    justify-content: center; 
+    min-height: 500px;
+    text-align: center;
+    color: #fff;  
+    font-family: Helvetica, sans-serif;  
+    text-shadow: 0px 46px 72px rgba(11, 27, 86, 0.53);
+    padding: 0px 30px 0px 30px;
+    text-align: center; 
+    background-image: url("assets/registration-Assets/globe-stars-png-webp.webp");
+    background-repeat: no-repeat; 
+    background-size: cover;
+    line-height: 1.6;    
+  }
+
+
+
+  .fsize {
+      font-size: 54px;
+    font-weight: 200;
+    margin-bottom: 10px;
+    line-height: normal;
+}
+  .fsize2 {font-size: 34px; margin: 0; }
+  .fsize4 {
+    font-size: 30px;
+    padding: 0px 10% 0px 10%;
+    
+}
+  .fsize3 {
+      font-size: 30px;       
+       font-weight: bolder;
+       color: #08f54f;
+       
+      
+       text-shadow:
+   -1px -1px 0 #011607,  
+    1px -1px 0 #011607,
+    -1px 1px 0 #011607,
+     1px 1px 0 #011607;
+    }  
+
+
+    .registerBtn {
+        border-width: 2px;
+        border-color: rgb(0, 0, 0);
+        border-style: dashed;
+        border-style: solid;
+        border-width: 2px;
+        border-color: rgb(3, 253, 50);
+        border-radius: 20px;
+        background-color: rgba(253, 252, 252, 0);
+        color: #fff;
+        font-size: 40px;
+        padding: 15px 20px 15px 20px;
+        font-family: Helvetica, sans-serif;     
+        font-weight: 100;
+        text-align: center;
+        cursor: pointer;
+        text-decoration: none;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+      }
+
+      .centerHeading {
+        display: flex;       
+        justify-content: center;
+        width: 100%;
+      }
+      
+      .actionLogo {  
+        background: rgb(14, 17, 60); /* Old browsers */
+        background: -moz-linear-gradient(top,  rgba(14,17,60,1) 0%, rgba(14,17,107,1) 75%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(top,  rgba(14,17,60,1) 0%,rgba(14,17,107,1) 75%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom,  rgb(6, 12, 71) 0%,rgb(11, 13, 71) 30%,rgb(12, 14, 80) 75%,rgb(6, 13, 92) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0e113c', endColorstr='#0e116b',GradientType=0 ); /* IE6-9 fallback on horizontal gradient */
+        padding: 0px 30px 0px 30px;
+      }
+
+      .guess-speakers {
+        opacity: 0.9;
+    }
+
+      @media screen and (max-width: 768px) {
+        .registerBtn  {
+            padding: 15px 5px 15px 5px !important;           
+            
+        }
+
+        .guess-speakers {
+            max-height: 200px;
+        }
+
+        .fsize4 {padding: 0px 0px 0px 0px;}
+      }
+
+
+/* --------------------- Meet the Team Testimonals -------------------- */
+
+.execsBG {
+    background-image: linear-gradient(rgba(14,17,107,.7), rgba(14,17,107,.8)),  url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAACCAYAAABytg0kAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAABZJREFUeNpi2r9//38gYGAEESAAEGAAasgJOgzOKCoAAAAASUVORK5CYII=);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    /* opacity: 0.5; */
+    
+}
+.meetExecHeading {
+    text-align: center;color: white;
+    font-size: 40px;
+    font-weight: 500;
+    margin: 0;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.meetExecSpan {
+    background: rgba(14,17,107,.3);
+    border-radius: 20px;
+    padding: 5px 10px 5px 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        
+        grid-column-gap: 20px;
+        background: rgba(14,17,107,.7);
+        background: rgba(3, 6, 107, 0.7);
+        margin: 0px 5% 5px 5%;
+        border-radius: 10px;
+    }
+    .grid-item {   
+        text-align: center; 
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);       
+    }
+
+  /* ---------------------- Grid Ends --------------- */
+      .meetTheTeam {
+          padding: 0px 2% 0px 2%;
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      }
+
+      .tContainer {
+        border: 2px solid #ccc;
+        border: 2px solid rgb(3, 253, 50);
+        background-color: rgb(236, 236, 236);
+        border-radius: 5px;
+        padding: 16px;
+        padding: 0px 5% 0px 5%;
+        margin: 16px 0;
+
+        text-align: center;        
+      }
+      
+      .tContainer::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      .tContainer img {
+        float: left;
+        margin-right: 20px;
+        border-radius: 50%;
+
+        margin: auto;
+        float: none;
+        display: block;
+      }
+      
+      .tContainer span {
+        font-size: 20px;
+        margin-right: 15px;
+      }
+      
+      @media (max-width: 768px) {
+
+        .tContainer {
+            /* text-align: center; */
+            padding: 16px;
+        }
+       /*  .tContainer img {
+            margin: auto;
+            float: none;
+            display: block;
+        } */
+      
+        .grid-container {
+            display: block;
+        }
+
+      }
+
+
+
+      /* ------------------ Meet the Team Text --------------- */
+
+      .teamTxt1 {
+          margin: 0;
+          color: rgb(53, 53, 53);
+          padding: 20px 0px 10px 0px;
+          font-size: 34px;
+      }
+
+      .teamTxt2 {
+          margin: 0;
+          font-weight: 500;
+          font-size: 22px;
+      }
+
+      .teamTxt3 {
+          /* margin: 0; */
+          font-weight: 500;
+      }
+
+      .textBody {
+        line-height: 1.6;
+        font-size: large;
+        text-align: justify;
+        text-justify: inter-word;
+
+      }
+
+      .spaceProfilePic {
+          min-height: 350px;
+      }

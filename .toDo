@@ -1,0 +1,9 @@
+1. install fonts
+2. Edit landing page registration image (Remove Register now and Logo)
+3. Create image resolution:  500px, 800px, 1500px, 1920x1080, 
+4. Create Avif, Webp, jpg
+5. Edit Guess Speakers Images
+5. Create Meet the team using Grid layout column
+6. Animate Grid on viewport
+7. Create Logo SVG and Register button
+8. Animate registration button
