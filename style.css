@@ -101,6 +101,8 @@
 
       .guess-speakers {
         opacity: 0.9;
+        max-height: 400px;
+        width: 100%;
     }
 
       @media screen and (max-width: 768px) {
@@ -110,7 +112,7 @@
         }
 
         .guess-speakers {
-            max-height: 200px;
+            max-height: 200px !important;            
         }
 
         .fsize4 {padding: 0px 0px 0px 0px;}
